@@ -1,0 +1,26 @@
+eye:
+  input_directory: "./src"
+  # input_extensions: "*.html,/routes/**/*.js,/routes/**/*.ts,/routes/**/*.jsx,/components/**/*.jsx"
+  input_extensions: "*.html,*.jsx,/components/**/*.jsx"
+  #  input_exact_files: "index.html,"
+
+  exclude_directory: [".git", "node_modules"]
+  exclude_files: [".gitignore"]
+
+  output_name: "./src/watched_eye.css"
+
+  # Scrollbar configurations
+  scrollbar_color: "#EEEEEE"
+  scrollbar_color_dark: "#121714"
+  scrollbar_width: "8px"
+  scrollbar_width_small: "4px"
+  scrollbar_height: "8px"
+  scrollbar_height_small: "1px"
+
+  scrollbar_track_color: "#F3F3F3"
+  scrollbar_track_color_dark: "#121714"
+  scrollbar_track_radius: "8px 8px"
+
+  scrollbar_thumb_color: "#D7D7D7"
+  scrollbar_thumb_color_dark: "#414141"
+  scrollbar_thumb_radius: "8px 8px"
