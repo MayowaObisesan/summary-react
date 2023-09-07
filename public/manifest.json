@@ -1,6 +1,7 @@
 {
   "short_name": "Summary",
   "name": "Summary App",
+  "description": "Summary is a search service that summarizes your search results as you search.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,66 @@
       "sizes": "512x512"
     }
   ],
+  "screenshots": [
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "320x768",
+      "form_factor": "wide"
+    },
+    {
+      "src": "",
+      "type": "image/png",
+      "sizes": "400x960",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open about Summary",
+      "short_name": "About Summary",
+      "description": "Go to the about Summary page",
+      "url": "/about?utm_source=about",
+      "icons": [
+        {
+          "src": "/icons/play-later.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Create New App",
+      "short_name": "New App",
+      "description": "Create a new app on Nine",
+      "url": "/new?utm_source=new",
+      "icons": [
+        {
+          "src": "/icons/play-later.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Search Apps",
+      "short_name": "Search App",
+      "description": "Search for apps on Nine",
+      "url": "/search?utm_source=search",
+      "icons": [
+        {
+          "src": "/icons/play-later.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
   "start_url": ".",
+  "display_override": [
+    "window-control-overlay",
+    "minimal-ui"
+  ],
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#27CE8E",
+  "background_color": "#27CE8E",
+  "related_applications": "",
+  "prefer_related_applications": false
 }
